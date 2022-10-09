@@ -12,8 +12,9 @@
   </head>
 
   <body>
-    <h3>Header here ... </h3>
-    <%= yield %>
-    <h3>Footer here ... </h3>
+    <%= render 'home/header' %> 
+    <div class="container mt-2">
+      <%= yield %>
+    </div>
   </body>
 </html>
